@@ -1,0 +1,265 @@
+.navbar{
+    background-color:#43f04e;
+    margin-bottom: 2cm;
+    
+}
+.jumbotron-fluid{
+    background-color:#ace7ff;
+    padding-top: 1px;
+}
+.about{
+    
+}
+.education{
+    background-color:#ace7ff;
+}
+.schedule{
+    background-color:#85e3ff;
+    min-height: 700px;
+
+}
+section#schedule{
+    padding-top: 100px;
+}
+.contact{
+    background-color:#ace7ff;
+    margin-top: -16px;
+    
+}
+
+section{
+    min-height: 500px;
+    align-content: center;
+}
+body{
+    background-color: antiquewhite;
+}
+.col {
+    padding-top: 100px;
+}
+
+section#education {
+    padding-top: 100px;
+}
+.dropdown{
+    background-color:#ace7ff ;
+}
+
+.header{
+    height: 500px;
+    background-size: cover;
+    background-image: url("hannah-morgan-ycVFts5Ma4s-unsplash-min-scaled.jpg");
+    text-align: center;
+    padding: 150px;
+}
+.header h1{
+    color: white;
+    font-size: 50px;
+ }
+
+.header p{
+    color: white;
+    font-size: 20px;
+}
+.header a{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #43f04e;
+    text-decoration: none;
+    color: white;
+}
+
+.header a:hover{
+    color: white;
+    background-color:rgb( green);
+}
+
+.container{
+    margin-bottom: 0px;
+}
+
+.p{
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+.footer{
+    background-color: #43f04e;
+    text-align: center;
+    padding: 8px;
+}
+
+.produk{
+    align-items: center;
+    height: 300px;
+    width: 200px;
+    margin-left: 40px;
+    background-color: rgb(233, 228, 228);
+    margin-bottom: 20px;
+    
+
+}
+.produk img{
+    height: 150px;
+    width: 200px;
+}
+
+.nama{
+    color: black
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.produk a{
+    
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #43f04e;
+    text-decoration: none;
+    color: white;
+   
+}
+.nama-produk{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.harga{
+    margin-bottom: ;
+}
+
+@media screen and ( max-width: 768px){
+    .header{
+        height: 300px;
+        background-size: cover;
+        background-image: url("hannah-morgan-ycVFts5Ma4s-unsplash-min-scaled.jpg");
+        text-align: center;
+        padding: 50px;
+    }
+    .header h1{
+        color: white;
+        font-size: 20px;
+     }
+    
+    .header p{
+        color: white;
+        font-size: 20px;
+    }
+    .header a{
+        border-radius: 10px;
+        padding: 10px;
+        background-color: #43f04e;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .header a:hover{
+        color: white;
+        background-color:rgb( green);
+    }
+    .p{
+        text-align: justify;
+    }
+    
+    .footer{
+        background-color: #43f04e;
+        text-align: center;
+    }
+    
+    .produk{
+        align-items: center;
+        height: 100px;
+        width: 150px;
+        margin-left: 0px;
+        background-color: rgb(233, 228, 228);
+        margin-bottom: 200px;
+        margin-right: 25px;
+    }
+    .produk img{
+        height: 100px;
+        width: 150px;
+    }
+    
+    .nama{
+        color: black
+        font-size: 25px;
+        font-weight: 400;
+        margin-left: 10px;
+    }
+    
+    .produk a{
+        
+        border-radius: 10px;
+        padding: 10px;
+        background-color: #43f04e;
+        text-decoration: none;
+        color: white;
+       
+    }
+    .nama-produk{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .harga{
+        margin-bottom: ;
+    }
+   
+}
+
+
+.kontak-form{
+align-items: center;
+padding-left: 12cm;
+padding-right: 12cm;
+padding-bottom:175px;
+}
+
+.kontak-form h1{
+    color: #43f04e;
+    align-items: center;
+    padding-left: 5cm;
+    
+}
+
+.kontak-form input[type="text"],
+.kontak-form input[type="email"],
+.kontak-form textarea {
+color: #43f04e;
+}
+
+.kontak-form .form-control {
+    align-items: center;
+    background: transparent;
+    border-radius: 2px;
+    outline: none;
+    box-shadow: none;
+    font-weight: bold;
+    margin: 16px 0;
+  }
+  .kontak-form .form-control:not(textarea) {
+    height: 48px;
+  }
+  .kontak-form .form-control:hover, .contact-form .form-control:focus {
+    border-color: #ffc200;
+  }
+
+
+.kontak-form .submit-btn{
+    color: #43f04e;
+    background: #ffc200;
+    border-radius: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.footer-kontak{
+    background-color: #43f04e;
+    text-align: center;
+    padding: 8px;
+}
+
