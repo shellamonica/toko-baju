@@ -183,6 +183,8 @@ height: 300px;
         width: 200px;
         height: 200px;
         }
+
+        
 }
 
 .footer-about{
@@ -192,11 +194,19 @@ height: 300px;
 }
 
 .kontak-form{
+align-content: center;
 align-items: center;
+height: 450px;
+width: 400px;
+background-color: darkseagreen;
+padding: 20px;
+border-radius: 10px;
+margin-top: 2cm;
+
 }
 
 .kontak-form h1{
-    color: #43f04e;
+    color: #2ea436;
     align-items: center;
     text-align: center;
     
@@ -205,11 +215,12 @@ align-items: center;
 .kontak-form .form-control {
     align-items: center;
     background: transparent;
-    border-radius: 2px;
+    border-radius: 8px;
     outline: none;
     box-shadow: none;
     font-weight: bold;
     margin: 16px 0;
+    background-color: #ffffff;
   }
   .kontak-form .form-control:not(textarea) {
     height: 48px;
@@ -228,12 +239,69 @@ align-items: center;
     border: 0;
     cursor: pointer;
     transition: all 0.4s ease;
+    
 }
 
 .footer-kontak{
     background-color: #43f04e;
     text-align: center;
-   margin-top: 5cm;
-   padding: 8px;
+   margin-top: 128px;
+   padding: 7px;
 }
 
+@media screen and ( max-width: 768px){
+    .kontak-form{
+        align-content: center;
+        align-items: center;
+        height: 450px;
+        width: 300px;
+        background-color: darkseagreen;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 2cm;
+        
+        }
+        
+        .kontak-form h1{
+            color: #2ea436;
+            align-items: center;
+            text-align: center;
+            font-size: 30px;
+        }
+        
+        .kontak-form .form-control {
+            align-items: center;
+            background: transparent;
+            border-radius: 8px;
+            outline: none;
+            box-shadow: none;
+            font-weight: bold;
+            margin: 16px 0;
+            background-color: #ffffff;
+          }
+          .kontak-form .form-control:not(textarea) {
+            height: 48px;
+          }
+          .kontak-form .form-control:hover, .contact-form .form-control:focus {
+            border-color: #ffc200;
+          }
+        
+        
+        .kontak-form .submit-btn{
+            color: #43f04e;
+            background: #ffc200;
+            border-radius: 50px;
+            color: #ffffff;
+            font-weight: bold;
+            border: 0;
+            cursor: pointer;
+            transition: all 0.4s ease;
+        }
+        
+        .footer-kontak{
+            background-color: #43f04e;
+            text-align: center;
+          
+           padding: 7px;
+        }
+}
